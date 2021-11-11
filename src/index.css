@@ -87,10 +87,6 @@ button{
     all: unset;
     color: #9495A5;
     cursor: pointer;
-
-    border: 1px solid #8d8181b6;
-    border-radius: 10px;
-    padding: 3px;
 }
 
 @media (max-width: 768px) {
