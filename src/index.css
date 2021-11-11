@@ -46,10 +46,14 @@ ul{
 
     background-color: #FFFFFF;
     width: 580px;
+    height: 10%;
 }
 li{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
 
     list-style:none;
     text-align: center;
@@ -105,7 +109,19 @@ button{
 
         padding: 0 12px;
     }
+    li{
+        font-size: 12px;
+    }
+    .close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        margin: 2%;
+
+        height: 100%;
+        font-size: 20px;
+    }
     button{
         display: flex;
         justify-content: center;
